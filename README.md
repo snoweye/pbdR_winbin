@@ -1,8 +1,8 @@
 pbdR Windows Binary Files
 =========================
 
-For Windows users, you can install windows binary files of pbdR as shown in
-the "install_pbdR_github.r" script. Inside an R session, type
+For Windows users, you may install windows binary files of pbdR as shown in
+the "install_dp_pbdR.r" script. Inside an R session, type
 
 library(RCurl)
 
@@ -12,4 +12,4 @@ install <- paste(github.dir, "install_dp_pbdR.r", sep = "")
 
 eval(parse(text = getURL(install, ssl.verifypeer = FALSE)))
 
-to install suggested windows binary files.
+to install suggested pbdR packages.
