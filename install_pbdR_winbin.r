@@ -1,4 +1,5 @@
-# source("http://raw.githubusercontent.com/snoweye/pbdR_windows_binary/master/install_pbdR_github.r")
+# library(devtools)
+# source_url("https://raw.githubusercontent.com/snoweye/pbdR_winbin/master/install_pbdR_winbin.r")
 
 dropbox.dir <- "http://raw.githubusercontent.com/snoweye/pbdR_winbin/master/"
 win.bin <- c(
