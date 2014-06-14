@@ -3,14 +3,17 @@
 # install <- paste(github.dir, "install_dp_pbdR.r", sep = "")
 # eval(parse(text = getURL(install, ssl.verifypeer = FALSE)))
 
-dropbox.dir <- "http://dl.dropboxusercontent.com/u/86659524/"
+dropbox.dir <- "http://dl.dropboxusercontent.com/u/86659524/00_dropbox/"
 win.bin <- c(
   "pbdMPI_0.2-5.zip",
   "pbdSLAP_0.1-9.zip",
   "SEXPtools_0.1-0.zip",
   "pbdBASE_0.3-0.zip",
   "pbdDMAT_0.3-0.zip",
-  "pbdDEMO_0.3-0.zip"
+  "pbdNCDF4_0.1-3.zip",
+  "pbdDEMO_0.3-0.zip",
+  "pbdPROF_0.2-4.zip",
+  "pmclust_0.1-7.zip"
 )
 
 tmp.dir <- tempdir()
