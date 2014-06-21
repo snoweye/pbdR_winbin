@@ -6,7 +6,7 @@
 dropbox.dir <- "http://dl.dropboxusercontent.com/u/86659524/00_dropbox/"
 win.bin <- c(
   "pbdMPI_0.2-5.zip",
-  "pbdSLAP_0.1-9.zip",
+  "pbdSLAP_0.2-0.zip",
   "SEXPtools_0.1-0.zip",
   "pbdBASE_0.3-0.zip",
   "pbdDMAT_0.3-0.zip",
