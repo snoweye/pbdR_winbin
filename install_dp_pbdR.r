@@ -5,11 +5,10 @@
 
 dropbox.dir <- "http://dl.dropboxusercontent.com/u/86659524/00_dropbox/"
 win.bin <- c(
-  "pbdMPI_0.2-5.zip",
+  "pbdMPI_0.2-6.zip",
   "pbdSLAP_0.2-0.zip",
-  "RNACI_0.1.0.zip",
-  "pbdBASE_0.3-0.zip",
-  "pbdDMAT_0.3-0.zip",
+  "pbdBASE_0.4-2.zip",
+  "pbdDMAT_0.3-3.zip",
   "pbdNCDF4_0.1-4.zip",
   "pbdDEMO_0.3-0.zip",
   "pbdPROF_0.2-4.zip",
