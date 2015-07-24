@@ -20,6 +20,11 @@ for(i.win.bin in win.bin){
   bin.file <- paste(dropbox.dir, i.win.bin, sep = "")
   tmp.file <- paste(tmp.dir, i.win.bin, sep = "/")
   download.file(bin.file, tmp.file)
+  # library(RCurl)
+  # bin <- getBinaryURL(bin.file)
+  # con <- file(tmp.file, open = "wb")
+  # writeBin(bin, con)
+  # close(con)
   install.packages(tmp.file, repos = NULL)
   unlink(tmp.file)
 }
